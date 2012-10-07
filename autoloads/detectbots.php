@@ -177,7 +177,7 @@ class detectBots
 	{
 		$rootNamespace = $currentNamespace = $operatorValue = $namedParameters = array();
 		$namedParameters['ip'] = $_ip;
-		return detectBots::instance()->modify('','isBot','',$rootNamespace,$currentNamespace,$operatorValue,$namedParameters);
+		return detectBots::instance()->modify('','is_bot','',$rootNamespace,$currentNamespace,$operatorValue,$namedParameters);
 	}
 	/**
 	 * Method to get current user IP
